@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, 
+            rgba(0, 0, 0, 0.7) 75%, #000000 100%), 
+            url("https://media.discordapp.net/attachments/715934007283548241/725414944522109029/option-2-header-bg.jpg?width=1394&height=872");
+  background-size: cover;
+  resize: both;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-div {
+  text-align: center;
+  margin: auto;
+  height: auto;
+  position: relative;
+  color: white;
+  margin: 10px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.nav-bar {
+  z-index: 2;
+  position: relative;
+  background-color: lightblue;
+  height: 70px;
+}
+
+.span {
+  color: black;
+}
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 780px) {
+
+}
+
+@media (min-width: 1090px) {
+  .back {
+    
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
